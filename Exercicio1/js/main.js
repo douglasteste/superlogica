@@ -1,6 +1,6 @@
 function inicializar(){
     $.ajax({
-        url: "consultar_pessoas_cadastradas.php",
+        url: "funcoes/consultar_pessoas_cadastradas.php",
         type: 'POST',
         success: function (data) {
             $('#resultado').html(data);
@@ -31,7 +31,7 @@ $('#form').submit(function(e){
 
     if(validacao === 'ok') {
         $.ajax({
-            url: "cadastrar_pessoa.php",
+            url: "funcoes/cadastrar_pessoa.php",
             type: 'POST',
             dataType: "json",
             data: {

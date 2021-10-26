@@ -1,5 +1,5 @@
 <?php
-require_once 'classes/Pessoa.php';
+require_once '../classes/Pessoa.php';
 
 $name     = @$_POST['name'];
 $userName = @$_POST['userName'];
