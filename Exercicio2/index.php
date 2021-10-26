@@ -1,6 +1,13 @@
 <?php
 require_once 'classes/Exemplo.php';
 
+// Botão de navegação (para voltar a página principal)
+echo '<style>
+        .btn { padding: 10px 40px; font-weight: bold; text-transform: uppercase; color: white; background-color: #0e8c00; border: 1px #0e8501 solid; border-radius: 7px; text-decoration: none; margin: 0 10px }
+    </style>
+    <br><a href="../index.html" class="btn"> Voltar para o início </a><br><br><br><br>';
+
+
 // Requisitos 1 e 2
 $exemplo = new Exemplo();
 
